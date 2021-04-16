@@ -1,0 +1,21 @@
+Imprensindibles:
+EditorConfig for VS Code: Define la edentación por cada archivo nuevo creado.
+
+JS-CSS-HTML Formatter: Le da formato automaticamente a los archivos js, css y html.
+
+GitLens: Exclente herramienta para ver el historial de los commits en los archivos.
+
+
+
+No imprensindibles:
+LiveServer: Crea un servidor local para visualizar las paginas web.
+
+Bracket Pair Color: Le da color a (), {}, [].
+
+CodeSnap: Toma una foto al código seleccionado.
+	- Abrir paleta de comandos.
+	- Escribir CodeSnap.
+	- Seleccionar el código.
+	- Darle al bóton para guardar la foto.
+
+Auto import: Importa automáticamente los módulos en node.js

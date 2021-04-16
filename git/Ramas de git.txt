@@ -1,0 +1,63 @@
+Ramas de Git:
+master -> 
+	dev ->
+		APP
+		BD
+		SERVER
+
+Formato commits:
+Se debe indicar la rama en la que se esta, seguido del mensaje que se quiera poner.
+"master: "
+	"dev: "
+		"APP: "
+		"BD: "
+		"SERVER: "
+
+
+
+¿Cómo usar las ramas establecidas?
+1. Clonar el repositorio:
+	git clone https://github.com/user/proyecto.git
+
+2. Irse a su rama correspondiente:
+*Supongamos que estamos en la rama "APP".
+	git checkout APP
+
+3. Asegurarse de trabajar en la rama correspondiente:
+	git branch //Para ver el listado de ramas
+
+3.1 Si no puede visualizar las ramas en su repositorio:
+	git fetch
+
+4. Ejectuar los comandos:
+	git add .
+	git commit -m "<mensaje del commit>"
+	git push
+
+5. Si se desea ver los cambios de los compañeros:
+	git pull orgin dev //Valido para las ramas "APP", "BD" y "SERVER"
+
+
+
+¿Cómo uno los cambios a la rama superior "de la rama APP a la rama dev"?
+1. Asegurarse de que todo su código funciona y no tiene ningún problema.
+
+2. Asegurarse que el area de trabajo de su rama este limpia.
+
+3. Cambie a la rama "dev":
+	git checkout dev
+
+4. Actualice la rama "dev":
+	git pull
+
+5. Una su rama asignada con la rama "dev":
+	git merge APP
+
+6. Suba los cambios al repositorio
+	git push
+
+7. Regrese a su rama asignada.
+	git checkout APP
+
+*Si no puede hacerlo pida ayuda al administrador del proyecto:
+*Para ello haga los primeros dos pasos y pida que unan su rama con la rama "dev".

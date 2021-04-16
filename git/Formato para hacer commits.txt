@@ -1,0 +1,8 @@
+"Rama">"Descripcion General": "Descripcion Especifica"
+
+Ejemplos:
+- APP>Pantallas, CSS, js: <mensaje>
+
+- BD>Procedimientos, DMLs, Funciones: <mensaje>
+
+- Server> APIs, Miscelaneos, Querys: <mensaje>
