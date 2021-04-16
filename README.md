@@ -53,7 +53,8 @@ Primeras configuraciones del proyecto:
         >git commit -m "Primer commit"
     - Conectar a un repositorio remoto _¡cambiar el enlace!_
         >git remote add origin https://githun.com/username/proyecto.git
-    - git push -u origin master
+    - Subir los archivos al repositorio
+        >git push -u origin master
 
 
 * Nota: Dentro de cada una de las carpetas se encontrará un archivo "README.md" para la instalación de tecnologías a utilizar. También una breve descripción de sus carpetas
