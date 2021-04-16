@@ -1,4 +1,4 @@
-Autro: Luis Fernando Solano Martínez
+Autor: Luis Fernando Solano Martínez
 GitHub: https://github.com/XxLuisFer15xX
 
 
