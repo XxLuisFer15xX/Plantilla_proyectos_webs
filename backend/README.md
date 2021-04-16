@@ -1,10 +1,15 @@
 Pasos para instalar el servidor con NodeJS
 1. Dentro de la carpeta backend, ejecutar los sigueintes comandos:
-    >npm init --yes
-    >npm i express body-parser
-    >npm i nodemon -D
+    - Inicializar el repositorio
+        >npm init --yes
+    - Instalar las dependecias para el proyecto
+        >npm i express body-parser
+    - Instalar las dependencias de desarrollo
+        >npm i nodemon -D
 2. En el archivo "package.json", ir a al apartado de "scripts" y dentro del objeto agregar:
+    - Script para iniciar el servidor
     >"start": "node index.js",
+    - Script para iniciar el servidor en modo de desarrollo
     >"dev": "nodemon index.js",
 
 

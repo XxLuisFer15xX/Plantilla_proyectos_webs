@@ -45,9 +45,15 @@ Primeras configuraciones del proyecto:
 1. Añadir el archivo ".gitignore" y dentro de el escribir "node_modules"
 
 2. En la raiz del proyecto ejecutar los siguitentes comandos de git
-    >git init
-    >git add .
-    >git commit -m "Primer commit"
+    - Inicializar el repositorio
+        >git init
+    - Añadir los archivos al staging area
+        >git add .
+    - Realizar el commit
+        >git commit -m "Primer commit"
+    - Conectar a un repositorio remoto _¡cambiar el enlace!_
+        >git remote add origin https://githun.com/username/proyecto.git
+    - git push -u origin master
 
 
 * Nota: Dentro de cada una de las carpetas se encontrará un archivo "README.md" para la instalación de tecnologías a utilizar. También una breve descripción de sus carpetas
