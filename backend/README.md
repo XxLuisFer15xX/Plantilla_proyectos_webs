@@ -3,7 +3,7 @@ Pasos para instalar el servidor con NodeJS
     - Inicializar el repositorio
         >npm init --yes
     - Instalar las dependecias para el proyecto
-        >npm i express body-parser
+        >npm i express body-parser mssql
     - Instalar las dependencias de desarrollo
         >npm i nodemon -D
 2. En el archivo "package.json", ir a al apartado de "scripts" y dentro del objeto agregar:

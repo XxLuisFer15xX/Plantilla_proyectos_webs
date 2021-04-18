@@ -8,7 +8,7 @@ const control_M = require('../controllers/control_M');  //Controlador de rutas p
 router.get('/', controllers.rutaPrincipal);
 
 // API'S PRINCIPALES
-router.get('/api', controllers.rutaApis);
+router.post('/api', controllers.rutaApis);
 
 // API'S POR MODULOS
 router.post('/api/M_1', control_M.Funcion1);
