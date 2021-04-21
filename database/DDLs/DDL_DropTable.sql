@@ -4,5 +4,5 @@
 --CREATE DATABASE <DATABASE>;
 USE TEST ;
 
-DROP TABLE persona;
-DROP TABLE genero;
+DROP TABLE Persona;
+DROP TABLE Genero;

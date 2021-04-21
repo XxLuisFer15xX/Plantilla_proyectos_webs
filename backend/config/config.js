@@ -10,11 +10,20 @@ module.exports = {
     }/*,
     configDB : {
         server: "localhost",
-        database: "VOLVODB",
+        database: "TEST",
         user: "sa",
         password: "MLRroot3",
         port: 1433,
-        parseJSON: true
+        parseJSON: true, // Solo activar si la base de datos soporta parametros de tipo JSON
+
+        // Agregar en caso de que no funcione en la version 2014 de SQL Server
+        entities: [],
+        synchronize: true,
+        options: {
+            cryptoCredentialsDetails:{
+                minVersion: 'TLSv1'
+            }
+        }
     }*/
     /*,
     configSession : {

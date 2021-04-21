@@ -6,7 +6,7 @@ const rutaPrincipal = (req, res, next) => {
     next();
 };
 
-const rutaApis = (req, res) => {
+const testConexionDB = (req, res) => {
     console.log('Acceso a una api');
     conn.connect().then(
         function() {
@@ -31,5 +31,5 @@ const rutaApis = (req, res) => {
 
 module.exports = {
     rutaPrincipal,
-    rutaApis
+    testConexionDB
 }

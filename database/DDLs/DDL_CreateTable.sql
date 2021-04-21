@@ -5,9 +5,9 @@
 USE TEST ;
 
 -- -----------------------------------------------------
--- Table persona
+-- Table Persona
 -- -----------------------------------------------------
-CREATE TABLE persona (
+CREATE TABLE Persona (
 	idPersona INT NOT NULL,
 	primerNombre VARCHAR(45) NULL,
 	segundoNombre VARCHAR(45) NULL,
@@ -22,9 +22,9 @@ CREATE TABLE persona (
 
 
 -- -----------------------------------------------------
--- Table genero
+-- Table Genero
 -- -----------------------------------------------------
-CREATE TABLE genero (
+CREATE TABLE Genero (
 	idGenero INT NOT NULL,
 	descripcion VARCHAR(45) NULL,
 	PRIMARY KEY (idGenero)

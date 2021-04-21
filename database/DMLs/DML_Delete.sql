@@ -3,5 +3,5 @@
 -- -----------------------------------------------------
 USE MENTARUDB;
 
-DELETE FROM persona;
-DELETE FROM genero;
+DELETE FROM Persona;
+DELETE FROM Genero;
