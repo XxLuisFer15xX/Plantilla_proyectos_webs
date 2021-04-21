@@ -42,9 +42,14 @@ Cada una de estas carpetas puede ser trabjada con diversas tecnologías de desar
 
 
 Primeras configuraciones del proyecto:
-1. Añadir el archivo ".gitignore" y dentro de el escribir "node_modules"
+1. Eliminar la carpeta .git
+    - Abrir el explorador de archivos
+    - Mostrar elementos ocultos
+    - Eliminar la carpeta .git
 
-2. En la raiz del proyecto ejecutar los siguitentes comandos de git
+2. Añadir el archivo ".gitignore" y dentro de el escribir "node_modules"
+
+3. En la raiz del proyecto ejecutar los siguitentes comandos de git
     - Inicializar el repositorio
         >git init
     - Añadir los archivos al staging area
@@ -55,6 +60,10 @@ Primeras configuraciones del proyecto:
         >git remote add origin https://githun.com/username/proyecto.git
     - Subir los archivos al repositorio
         >git push -u origin master
+
+4. Ir a la carpeta "backend" y realizar las instrucciones del archivo README.md
+
+5. Ir a la carpeta "frontend" y realizar las instrucciones del archivo README.md
 
 
 * Nota: Dentro de cada una de las carpetas se encontrará un archivo "README.md" para la instalación de tecnologías a utilizar. También una breve descripción de sus carpetas
